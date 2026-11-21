@@ -1,0 +1,29 @@
+{
+  "configurations": [
+    {
+      "type": "cppvsdbg",
+      "args": [
+        "C:\\Users\\User\\Documents\\Codex\\2026-11-21\\i\\work\\kit\\sample",
+        "C:\\Users\\User\\Documents\\Codex\\2026-11-21\\i\\work\\sqlglot",
+        "${workspaceFolder}/coverage.json"
+      ],
+      "environment": [
+        {
+          "value": "C:/Program Files/WindowsApps/OpenAI.CodexPrimaryRuntime.v26-1119-907-0_26.1119.907.0_x64__3k8sg7r9htsxt/dependencies/python;C:/msys64/ucrt64/bin;${env:PATH}",
+          "name": "PATH"
+        },
+        {
+          "value": "C:/Program Files/WindowsApps/OpenAI.CodexPrimaryRuntime.v26-1119-907-0_26.1119.907.0_x64__3k8sg7r9htsxt/dependencies/python",
+          "name": "PYTHONHOME"
+        }
+      ],
+      "preLaunchTask": "Build Blast Radius",
+      "name": "Run Blast Radius sample",
+      "program": "${workspaceFolder}/selector.exe",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "request": "launch"
+    }
+  ],
+  "version": "0.2.0"
+}

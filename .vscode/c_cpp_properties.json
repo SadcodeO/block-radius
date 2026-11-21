@@ -1,0 +1,15 @@
+{
+  "version": 4,
+  "configurations": [
+    {
+      "cppStandard": "c++20",
+      "compilerPath": "C:/msys64/ucrt64/bin/g++.exe",
+      "name": "Windows",
+      "intelliSenseMode": "windows-gcc-x64",
+      "includePath": [
+        "${workspaceFolder}",
+        "C:/Program Files/WindowsApps/OpenAI.CodexPrimaryRuntime.v26-1119-907-0_26.1119.907.0_x64__3k8sg7r9htsxt/dependencies/python/include"
+      ]
+    }
+  ]
+}
